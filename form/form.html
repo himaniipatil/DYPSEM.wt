@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Registration Form</h2>
+        <form id="form">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            
+
+            <label for="aadhaar">Aadhaar Number</label>
+            <input type="number" id="aadhaar" name="aadhaar" placeholder="Enter your Aadhaar Number" required>
+
+            <label for="pan">PAN Card </label>
+            <input type="text" id="pan" name="pan" placeholder="Enter your PAN Card Number" required>
+            
+            <label for="mobile">Mobile Number</label>
+            <input type="number" id="mobile" name="mobile" placeholder="Enter Your Mobile Number" required>
+
+            <label for="DOB">Date of Birth</label>
+            <input type="date" id="DOB" name="DOB" placeholder="Enter Your Date of Birth" required><br><br>
+            
+            <h3>Enter Marks for 6 Subjects</h3>
+            <input type="number" id="sub1" placeholder="Subject 1 Marks" required><br>
+            <input type="number" id="sub2" placeholder="Subject 2 Marks" required><br>
+            <input type="number" id="sub3" placeholder="Subject 3 Marks" required><br>
+            <input type="number" id="sub4" placeholder="Subject 4 Marks" required><br>
+            <input type="number" id="sub5" placeholder="Subject 5 Marks" required><br>
+            <input type="number" id="sub6" placeholder="Subject 6 Marks" required><br>
+
+
+            <button type="submit">Submit</button>
+
+            
+        </form>
+    </div>
+
+    <div id="result"></div>
+
+    <script src="form.js"></script>
+</html>
