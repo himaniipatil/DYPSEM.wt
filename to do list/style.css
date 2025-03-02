@@ -1,0 +1,25 @@
+body {
+    margin: 20px;
+  }
+  input[type="text"] {
+    padding: 10px;
+    width: 250px;
+  }
+  input[type="number"] {
+    padding: 10px;
+    width: 250px;
+  }
+  button {
+    padding: 10px;
+    margin-left: 10px;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  li {
+    background-color: #f4f4f4;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 4px;
+  }
