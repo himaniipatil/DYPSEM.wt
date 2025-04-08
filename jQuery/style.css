@@ -1,0 +1,26 @@
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.buttons {
+    text-align: center;
+    margin: 20px;
+}
+.btn {
+    margin: 5px;
+}
+.gallery-item.hidden {
+    display: none;
+}
